@@ -1,8 +1,81 @@
+*{
+    background: #004539;
+    color: #FFFFFF;
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    width: device-width;
+}
+nav{
+  font-family: 'Amatic SC', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  background: #2F6E64;
+}
 .btn-default{
   color: #1F618D;
   font-size: 3.0em;
   text-decoration: none;
 }
-.languages{
-
+h2{
+  text-align: center;
+}
+#headshot{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background: #C4C4C4;
+}
+#name{
+  font-family: 'Amatic SC', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+}
+#frontpage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#experience-block *{
+  position: relative;
+  color: #000000;
+  margin: auto;
+  font-size: 24px;
+}
+#title-block{
+  width: 95%;
+  height: 3.0em;
+  vertical-align: top;
+  background: #C4C4C4;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: left;
+}
+#title-block *{
+  /*position: absolute;*/
+  font-weight: bold;
+  background: #C4C4C4;
+  width: auto;
+}
+#descr-block{
+  width: 95%;
+  height: auto;
+}
+#descr-block *{
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 0px 0px 15px 15px;
+  padding: 0.75em;
+}
+#contact{
+  text-align: center;
+}
+footer{
+  font-size: 24px;
+  text-align: center;
 }
