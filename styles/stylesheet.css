@@ -122,10 +122,17 @@ h2{
   height: 100vh;
 }
 #contact{
-  height: 100vh;
   text-align: center;
 }
 footer{
   font-size: 18px;
   text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+footer img{
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.25em;
 }
