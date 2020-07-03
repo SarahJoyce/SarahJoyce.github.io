@@ -13,6 +13,12 @@ nav{
   font-weight: bold;
   font-size: 24px;
   background: #2F6E64;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  padding: 0.5em;
 }
 .btn-default{
   color: #1F618D;
@@ -23,21 +29,53 @@ h2{
   text-align: center;
 }
 #headshot{
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
+  width: 8.0em;
+  height: 8.0em;
+  border-radius: 50%;
   background: #C4C4C4;
+  border: 3px dotted #000000;
 }
 #name{
   font-family: 'Amatic SC', cursive;
   font-style: normal;
   font-weight: bold;
   font-size: 96px;
+  border: 3px dotted #000000;
 }
 #frontpage{
   display: flex;
-  flex-direction: column;
+  position: relative;
+  flex-direction: row;
   align-items: center;
+  border: 3px dotted #000000;
+  margin: auto;
+  height: 100vh;
+}
+#intro{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 0.5em;
+  border: 3px dotted #000000;
+}
+#intro *{
+  margin-bottom: 1%;
+}
+#intro p{
+  width: auto;
+  border: 3px dotted #000000;
+}
+#frontpage-icons{
+  display: flex;
+  flex-direction: row;
+  vertical-align: center;
+  border: 3px dotted #000000;
+}
+#intro a{
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border: 3px dotted #000000;
 }
 #experience-block *{
   position: relative;
@@ -57,7 +95,6 @@ h2{
   align-items: left;
 }
 #title-block *{
-  /*position: absolute;*/
   font-weight: bold;
   background: #C4C4C4;
   width: auto;
@@ -72,10 +109,23 @@ h2{
   border-radius: 0px 0px 15px 15px;
   padding: 0.75em;
 }
+#technical{
+  height: 100vh;
+}
+#projects{
+  height: 100vh;
+}
+#leadership{
+  height: 100vh;
+}
+#skills{
+  height: 100vh;
+}
 #contact{
+  height: 100vh;
   text-align: center;
 }
 footer{
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
 }
