@@ -33,21 +33,18 @@ h2{
   height: 8.0em;
   border-radius: 50%;
   background: #C4C4C4;
-  border: 3px dotted #000000;
 }
 #name{
   font-family: 'Amatic SC', cursive;
   font-style: normal;
   font-weight: bold;
-  font-size: 96px;
-  border: 3px dotted #000000;
+  font-size: 5.0em;
 }
 #frontpage{
   display: flex;
   position: relative;
   flex-direction: row;
   align-items: center;
-  border: 3px dotted #000000;
   margin: auto;
   height: 100vh;
 }
@@ -57,25 +54,22 @@ h2{
   flex-direction: column;
   align-items: left;
   padding: 0.5em;
-  border: 3px dotted #000000;
 }
 #intro *{
-  margin-bottom: 1%;
+  margin-bottom: 0.1%;
 }
 #intro p{
   width: auto;
-  border: 3px dotted #000000;
+  padding-bottom: 0.5em;
 }
 #frontpage-icons{
   display: flex;
   flex-direction: row;
   vertical-align: center;
-  border: 3px dotted #000000;
+  font-size: 0.25em;
 }
 #intro a{
-  padding-left: 0.1em;
-  padding-right: 0.1em;
-  border: 3px dotted #000000;
+  padding-right: 2.0em;
 }
 #experience-block *{
   position: relative;
@@ -123,6 +117,20 @@ h2{
 }
 #contact{
   text-align: center;
+  align-items: center;
+  height: 50vh;
+}
+#footer-icons{
+  display: flex;
+  flex-direction: row;
+  vertical-align: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#contact a{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 footer{
   font-size: 18px;
