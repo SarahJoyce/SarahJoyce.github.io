@@ -4,14 +4,14 @@
     font-family: 'Abel', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 1.2em;
     width: device-width;
 }
 nav{
   font-family: 'Amatic SC', cursive;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.1em;
   background: #2F6E64;
   position: fixed;
   width: 100%;
@@ -20,9 +20,20 @@ nav{
   z-index: 2;
   padding: 0.5em;
 }
-.btn-default{
-  color: #1F618D;
-  font-size: 3.0em;
+#icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 1.0em;
+  height: 100%;
+  width: 5vw;
+  right: 0;
+  z-index: 1;
+  position: fixed;
+}
+#icons *{
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
   text-decoration: none;
 }
 h2{
@@ -39,37 +50,30 @@ h2{
   font-style: normal;
   font-weight: bold;
   font-size: 5.0em;
+  border: 3px dotted #000000;
 }
 #frontpage{
   display: flex;
   position: relative;
   flex-direction: row;
   align-items: center;
+  vertical-align: center;
   margin: auto;
   height: 100vh;
+  width: 90vw;
 }
 #intro{
   width: 75%;
   display: flex;
   flex-direction: column;
   align-items: left;
-  padding: 0.5em;
-}
-#intro *{
-  margin-bottom: 0.1%;
+  vertical-align: center;
+  border: 3px dotted #000000;
 }
 #intro p{
   width: auto;
   padding-bottom: 0.5em;
-}
-#frontpage-icons{
-  display: flex;
-  flex-direction: row;
-  vertical-align: center;
-  font-size: 0.25em;
-}
-#intro a{
-  padding-right: 2.0em;
+  border: 3px dotted #000000;
 }
 #experience-block *{
   position: relative;
@@ -105,32 +109,19 @@ h2{
 }
 #technical{
   height: 100vh;
+  width: 93vw;
 }
 #projects{
   height: 100vh;
+  width: 93vw;
 }
 #leadership{
   height: 100vh;
+  width: 93vw;
 }
 #skills{
   height: 100vh;
-}
-#contact{
-  text-align: center;
-  align-items: center;
-  height: 50vh;
-}
-#footer-icons{
-  display: flex;
-  flex-direction: row;
-  vertical-align: center;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-#contact a{
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  width: 93vw;
 }
 footer{
   font-size: 18px;
