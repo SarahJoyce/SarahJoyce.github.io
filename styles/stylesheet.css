@@ -71,7 +71,7 @@ h2{
   border-radius: 0.5em 0.5em 0em 0em;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   align-items: left;
 }
 #title-block *{
@@ -87,15 +87,11 @@ h2{
 #descr-block *{
   position: relative;
   background: #FFFFFF;
-  border-radius: 0em 0em 0.5em 0.5em;
   padding: 0.75em;
+  border-radius: 0em 0em 0.5em 0.5em;
 }
 #technical{
   width: 93vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 #projects{
   width: 93vw;
@@ -141,6 +137,8 @@ h2{
   width: 93vw;
 }
 footer{
+  width: 93vw;
+  left: 0;
   font-size: 0.75em;
   text-align: center;
   align-items: center;
