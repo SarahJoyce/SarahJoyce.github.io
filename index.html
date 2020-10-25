@@ -7,14 +7,12 @@
 <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="scripts/index.js"></script>
 <script src="https://kit.fontawesome.com/1e455ca5c4.js" crossorigin="anonymous"></script>
 <title>Sarah Joyce</title>
 </head>
 <body>
-  <nav>
-    Sarah Joyce
-  </nav>
   <div id="icons">
   <!--email-->
   <a id="email-link" href="mailto:sjoyce@udel.edu" class="btn btn-default"><i class="far fa-envelope fa-2x" target="_blank"></i>
@@ -26,10 +24,10 @@
   <a  id="profile-link" href="https://codepen.io/sarahj/" class="btn btn-default" target="_blank"><i class="fab fa-codepen fa-2x"></i></a>
   </div>
   <div id="frontpage">
-    <div id="headshot"></div>
+    <div id="headshot"><img src="pictures/headshot.jpg"></div>
     <div id="intro">
       <h1 id="name">Sarah Joyce</h1>
-      <p>I'm a senior computer science major looking for a full-time position with a company that is changing the world.</p>
+      <p>I'm a senior computer science major and (almost) a software engineer.</p>
     </div>
   </div>
   <div id="technical">
@@ -44,27 +42,14 @@
         <p>I did stuff</p>
       </div>
     </div>
-    <div id="experience-block">
-      <div id="title-block">
-      <h4>The Law Offices of Foehl & Eyre, PC, Glenside, PA</h4>
-      <h4>Technology Consultant</h4>
-      <h4>Summer 2019</h4>
-    </div>
-    <div id="descr-block">
-      <ul>
-        <li>Reconstructed Wordpress website from an unfinished version that had not been updated in two years</li>
-        <li>Organized the firm’s database of files, email system, and server for legal documents</li>
-        <li>Learned to troubleshoot the Practice Master legal software</li>
-      </ul>
-    </div>
   </div>
   <div id="projects">
     <h2>Projects</h2>
     <div id="folder">
     <div id="folder-tabs">
-      <div class="open-tab"><img class="languages" src="pictures/java.png"></div>
-      <div class="closed-tab"><img class="languages" src="pictures/clogo.png"></div>
-      <div class="closed-tab"><img class="languages" src="pictures/web2.png"></div>
+      <div class="closed-tab change-tab"><img class="languages" src="pictures/java.png"></div>
+      <div class="closed-tab change-tab"><img class="languages" src="pictures/clogo.png"></div>
+      <div class="closed-tab change-tab"><img class="languages" src="pictures/web2.png"></div>
     </div>
     <div id="folder-content">
       Projects Here
@@ -108,6 +93,6 @@
 </body>
 <footer>
   <img src="pictures/sunflower.png">
-  coded with <3 by Sarah
+  coded with &lt;3 by Sarah
 </footer>
 </html>

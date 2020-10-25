@@ -1,8 +1,13 @@
-let changeTab = function(){
-      $(".closed-tab").onClick(function(){
-        $(this).addClass("open-tab").removeClass("closed-tab");
-        $(".open-tab").addClass("closed-tab").removeClass("open-tab");
-      });
-}
+$(document).ready(function(){
 
-$(".open-tab").on("click", changeTab);
+  $('.change-tab').click(function(){
+    $(this).toggleClass('open-tab closed-tab');
+  });
+
+$('.closed-tab').click(function(){
+    console.log("clicked");
+    $('.open-tab').addClass('closed-tab').removeClass('open-tab');
+    $(this).addClass('open-tab').removeClass('closed-tab');
+});
+
+});
