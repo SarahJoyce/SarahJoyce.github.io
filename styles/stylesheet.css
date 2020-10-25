@@ -29,11 +29,10 @@ h2{
 }
 #headshot{
   margin-right: 5%;
-}
-#headshot img{
   width: 8.0em;
   height: 8.0em;
   border-radius: 50%;
+  background: #C4C4C4;
 }
 #name{
   font-family: 'Amatic SC', cursive;
