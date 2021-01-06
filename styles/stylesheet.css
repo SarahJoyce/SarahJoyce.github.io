@@ -1,7 +1,7 @@
 *{
     background: #004539;
     color: #FFFFFF;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Chivo', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.2em;
@@ -45,7 +45,7 @@ h2{
   background: #CFCFCF;
 }
 #name{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Comfortaa', cursive;
   font-style: normal;
   font-weight: bold;
   font-size: 4.0em;
@@ -164,7 +164,7 @@ h2{
   display: flex;
   flex-direction: column;
   color: #292929;
-  background: #DDDDDD;
+  background: #FFFFFF;
   padding: 1%;
   border-radius: 10%;
   margin: 0.5%;
