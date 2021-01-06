@@ -7,6 +7,13 @@
     font-size: 1.2em;
     list-style-position: inside;
 }
+nav{
+  position: fixed;
+  z-index: 5;
+  text-align: center;
+  padding: 2.5%;
+  width: 90vw;
+}
 body{
   margin: 0;
 }
