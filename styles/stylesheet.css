@@ -1,3 +1,125 @@
+@media screen and (min-width: 768px){
+  nav{
+    padding: 2.5%;
+    width: 90vw;
+  }
+  #icons{
+    font-size: 1.0em;
+    width: 5vw;
+  }
+  #frontpage{
+    height: 100vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  h1{
+    width: 10.0em;
+  }
+  #name{
+    font-size: 4.0em;
+  }
+  #headshot{
+    margin-right: 5%;
+    width: 8.0em;
+    height: 8.0em;
+  }
+  #projects{
+    width: 93vw;
+  }
+  #folder-content{
+    width: 95%;
+    height: 75%;
+    padding: 0.75em;
+  }
+  footer{
+    width: 93vw;
+}
+}
+@media screen and (max-width: 768px) and (min-width: 481px){
+  nav{
+    padding: 1.5%;
+    margin: 1.5%;
+    width: 85vw;
+  }
+  #icons{
+    font-size: 0.75em;
+    width: 5vw;
+  }
+  #frontpage{
+    height: 100vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #name{
+    font-size: 1.0em;
+  }
+  #intro p{
+    font-size: 1.0em;
+  }
+  #headshot{
+    width: 5.0em;
+    height: 5.0em;
+    margin-bottom: 5%;
+  }
+  #projects{
+    width: 85vw;
+  }
+  #folder-content{
+    width: 75%;
+    height: 75%;
+    padding: 0.25em;
+  }
+  footer{
+    width: 85vw;
+}
+}
+@media screen and (max-width: 480px){
+  nav{
+    padding: 0.5%;
+    width: 85vw;
+  }
+  #icons{
+    font-size: 0.75em;
+    width: 5vw;
+  }
+  #frontpage{
+    height: 100vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #name{
+    font-size: 0.75em;
+  }
+  #intro p{
+    font-size: 1.0em;
+  }
+  #headshot{
+    width: 0.025rem;
+    height: 0.025rem;
+    margin-bottom: 5%;
+  }
+  #projects{
+    width: 75vw;
+  }
+  #folder-content{
+    width: 25%;
+    height: 75%;
+    padding: 0.25em;
+    font-size: 0.5em;
+  }
+  footer{
+      width: 85vw;
+  }
+}
 *{
     background: #004539;
     color: #FFFFFF;
@@ -11,8 +133,6 @@ nav{
   position: fixed;
   z-index: 5;
   text-align: center;
-  padding: 2.5%;
-  width: 90vw;
 }
 body{
   margin: 0;
@@ -21,9 +141,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  font-size: 1.0em;
   height: 100%;
-  width: 5vw;
   right: 0;
   z-index: 1;
   position: fixed;
@@ -38,25 +156,15 @@ h2{
   text-align: center;
 }
 #headshot{
-  margin-right: 5%;
-  width: 8.0em;
-  height: 8.0em;
   border-radius: 50%;
   background: #9a9a9a;
+  width: 8.0em;
+  height: 8.0em;
 }
 #name{
   font-family: 'Comfortaa', cursive;
   font-style: normal;
   font-weight: bold;
-  font-size: 4.0em;
-}
-#frontpage{
-  height: 100vh;
-  width: 90vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 #intro{
   width: 60%;
@@ -70,7 +178,6 @@ h2{
   margin: 0 auto;
   margin-bottom: 2.5%;
   margin-left: 2.5%;
-  width: 98%;
 }
 #experience-block *{
   position: relative;
@@ -110,9 +217,6 @@ h2{
 #technical{
   width: 93vw;
 }
-#projects{
-  width: 93vw;
-}
 #folder{
   margin: auto;
   margin-left: 2.5%;
@@ -141,20 +245,16 @@ h2{
   padding: 0.25em;
 }
 #folder-content{
-  width: 95%;
-  height: 75%;
   position: relative;
   color: #000000;
   background: #F1D592;
   position: relative;
-  padding: 0.75em;
   text-align: center;
 }
 #leadership{
   width: 93vw;
 }
 footer{
-  width: 93vw;
   left: 0;
   font-size: 0.75em;
   text-align: center;
