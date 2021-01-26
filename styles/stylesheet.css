@@ -1,33 +1,39 @@
 @media screen and (min-width: 768px){
-  nav{
-    padding: 2.5%;
-    width: 90vw;
-  }
   #icons{
     font-size: 1.0em;
     width: 5vw;
   }
   #frontpage{
     height: 100vh;
-    width: 75vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  h1{
-    width: 10.0em;
-  }
-  #name{
-    font-size: 4.0em;
   }
   #headshot{
     margin-right: 5%;
     width: 8.0em;
     height: 8.0em;
   }
+  #intro{
+    width: 75%;
+  }
+  #name{
+    font-size: em;
+  }
   #projects{
     width: 93vw;
+  }
+  #folder{
+    display: flex;
+    flex-direction: row;
+  }
+  #folder-tabs{
+    display: flex;
+    flex-direction: column;
+  }
+  #folder-tabs *{
+    border-radius: 0.5em 0em 0em 0.5em;
   }
   #folder-content{
     width: 95%;
@@ -39,18 +45,12 @@
 }
 }
 @media screen and (max-width: 768px) and (min-width: 481px){
-  nav{
-    padding: 1.5%;
-    margin: 1.5%;
-    width: 85vw;
-  }
   #icons{
-    font-size: 0.75em;
+    font-size: 1.0em;
     width: 5vw;
   }
   #frontpage{
     height: 100vh;
-    width: 75vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,6 +70,17 @@
   #projects{
     width: 85vw;
   }
+  #folder{
+    display: flex;
+    flex-direction: row;
+  }
+  #folder-tabs{
+    display: flex;
+    flex-direction: column;
+  }
+  #folder-tabs *{
+    border-radius: 0.5em 0em 0em 0.5em;
+  }
   #folder-content{
     width: 75%;
     height: 75%;
@@ -80,24 +91,19 @@
 }
 }
 @media screen and (max-width: 480px){
-  nav{
-    padding: 0.5%;
-    width: 85vw;
-  }
   #icons{
     font-size: 0.75em;
-    width: 5vw;
+    width: 10vw;
   }
   #frontpage{
     height: 100vh;
-    width: 75vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   #name{
-    font-size: 0.75em;
+    font-size: 1.0em;
   }
   #intro p{
     font-size: 1.0em;
@@ -110,11 +116,26 @@
   #projects{
     width: 75vw;
   }
+  #folder{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
   #folder-content{
     width: 25%;
     height: 75%;
-    padding: 0.25em;
+    padding: 0.5em;
     font-size: 0.5em;
+  }
+  #folder-tabs{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+  #folder-tabs *{
+    width: auto;
+    height: 10vh;
+    border-radius: 0.5em 0.5em 0em 0em;
   }
   footer{
       width: 85vw;
@@ -127,12 +148,6 @@
     font-style: normal;
     font-weight: normal;
     font-size: 1.2em;
-    list-style-position: inside;
-}
-nav{
-  position: fixed;
-  z-index: 5;
-  text-align: center;
 }
 body{
   margin: 0;
@@ -174,64 +189,16 @@ h2{
 #intro p{
   line-height: 1.0em;
 }
-#experience-block{
-  margin: 0 auto;
-  margin-bottom: 2.5%;
-  margin-left: 2.5%;
-}
-#experience-block *{
-  position: relative;
-  margin: auto;
-  font-size: 0.85em;
-}
-#position{
-  margin-left: 5%;
-}
-#duration{
-  margin-right: 5%;
-}
-#title-block{
-  height: 3.0em;
-  vertical-align: top;
-  background: #6e6e6e;
-  border-radius: 0.5em 0.5em 0em 0em;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-#title-block *{
-  font-weight: bold;
-  color: #FFFFFF;
-  background: #6e6e6e;
-}
-#descr-block{
-  height: auto;
-}
-#descr-block *{
-  position: relative;
-  padding: 0.75em;
-  border-radius: 0em 0em 0.5em 0.5em;
-  color: #292929;
-  background-color: #FFFFFF;
-}
-#technical{
-  width: 93vw;
-}
 #folder{
   margin: auto;
   margin-left: 2.5%;
   margin-bottom: 2.5%;
-  width: 98%;
   background: #F1D592;
   border-radius: 0.5em;
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 #folder-tabs{
-  display: flex;
-  flex-direction: column;
   margin: auto;
 }
 .open-tab, .open-tab img{
@@ -241,7 +208,6 @@ h2{
   background: #A89566;
 }
 #folder-tabs *{
-  border-radius: 0.5em 0em 0em 0.5em;
   padding: 0.25em;
 }
 #folder-content{
@@ -250,9 +216,6 @@ h2{
   background: #F1D592;
   position: relative;
   text-align: center;
-}
-#leadership{
-  width: 93vw;
 }
 footer{
   left: 0;
