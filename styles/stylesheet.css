@@ -1,4 +1,31 @@
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1080px){
+  #name{
+    font-size: 3.0em;
+  }
+  #icons{
+    font-size: 1.0em;
+    width: 5vw;
+  }
+  #frontpage{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #headshot{
+    margin-right: 5%;
+    width: 8.0em;
+    height: 8.0em;
+  }
+  #intro{
+    width: 75%;
+  }
+  #projects{
+    width: 93vw;
+  }
+}
+@media screen and (max-width: 1079px) and (min-width: 940px){
   #icons{
     font-size: 1.0em;
     width: 5vw;
@@ -19,30 +46,38 @@
     width: 75%;
   }
   #name{
-    font-size: em;
+    font-size: 2.5em;
   }
   #projects{
     width: 93vw;
   }
-  #folder{
+}
+@media screen and (max-width: 939px) and (min-width: 769px){
+  #icons{
+    font-size: 1.0em;
+    width: 5vw;
+  }
+  #frontpage{
+    height: 100vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
-  #folder-tabs{
-    display: flex;
-    flex-direction: column;
+  #headshot{
+    margin-right: 5%;
+    width: 8.0em;
+    height: 8.0em;
   }
-  #folder-tabs *{
-    border-radius: 0.5em 0em 0em 0.5em;
+  #intro{
+    width: 75%;
   }
-  #folder-content{
-    width: 95%;
-    height: 75%;
-    padding: 0.75em;
+  #name{
+    font-size: 2.0em;
   }
-  footer{
+  #projects{
     width: 93vw;
-}
+  }
 }
 @media screen and (max-width: 768px) and (min-width: 481px){
   #icons{
@@ -55,9 +90,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
   #name{
-    font-size: 1.0em;
+    font-size: 1.5em;
   }
   #intro p{
     font-size: 1.0em;
@@ -70,25 +106,6 @@
   #projects{
     width: 85vw;
   }
-  #folder{
-    display: flex;
-    flex-direction: row;
-  }
-  #folder-tabs{
-    display: flex;
-    flex-direction: column;
-  }
-  #folder-tabs *{
-    border-radius: 0.5em 0em 0em 0.5em;
-  }
-  #folder-content{
-    width: 75%;
-    height: 75%;
-    padding: 0.25em;
-  }
-  footer{
-    width: 85vw;
-}
 }
 @media screen and (max-width: 480px){
   #icons{
@@ -101,6 +118,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
   #name{
     font-size: 1.0em;
@@ -109,36 +127,9 @@
     font-size: 1.0em;
   }
   #headshot{
-    width: 0.025rem;
-    height: 0.025rem;
+    width: 0.005em;
+    height: 0.005em;
     margin-bottom: 5%;
-  }
-  #projects{
-    width: 75vw;
-  }
-  #folder{
-    display: flex;
-    flex-direction: column;
-    width: 90vw;
-  }
-  #folder-content{
-    width: 25%;
-    height: 75%;
-    padding: 0.5em;
-    font-size: 0.5em;
-  }
-  #folder-tabs{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-  }
-  #folder-tabs *{
-    width: auto;
-    height: 10vh;
-    border-radius: 0.5em 0.5em 0em 0em;
-  }
-  footer{
-      width: 85vw;
   }
 }
 *{
@@ -161,6 +152,7 @@ body{
   z-index: 1;
   position: fixed;
   text-align: center;
+  padding-right: 1%;
 }
 #icons *{
   font-size: 1.2em;
@@ -188,34 +180,6 @@ h2{
 }
 #intro p{
   line-height: 1.0em;
-}
-#folder{
-  margin: auto;
-  margin-left: 2.5%;
-  margin-bottom: 2.5%;
-  background: #F1D592;
-  border-radius: 0.5em;
-  align-items: center;
-  justify-content: center;
-}
-#folder-tabs{
-  margin: auto;
-}
-.open-tab, .open-tab img{
-  background: #F1D592;
-}
-.closed-tab, .closed-tab img{
-  background: #A89566;
-}
-#folder-tabs *{
-  padding: 0.25em;
-}
-#folder-content{
-  position: relative;
-  color: #000000;
-  background: #F1D592;
-  position: relative;
-  text-align: center;
 }
 footer{
   left: 0;
