@@ -25,7 +25,7 @@
     width: 93vw;
   }
 }
-@media screen and (max-width: 1079px) and (min-width: 940px){
+@media screen and (max-width: 1080px) and (min-width: 940px){
   #icons{
     font-size: 1.0em;
     width: 5vw;
@@ -52,7 +52,7 @@
     width: 93vw;
   }
 }
-@media screen and (max-width: 939px) and (min-width: 769px){
+@media screen and (max-width: 940px) and (min-width: 768px){
   #icons{
     font-size: 1.0em;
     width: 5vw;
@@ -66,8 +66,8 @@
   }
   #headshot{
     margin-right: 5%;
-    width: 8.0em;
-    height: 8.0em;
+    width: 7.0em;
+    height: 7.0em;
   }
   #intro{
     width: 75%;
@@ -79,7 +79,7 @@
     width: 93vw;
   }
 }
-@media screen and (max-width: 768px) and (min-width: 546px){
+@media screen and (max-width: 768px) and (min-width: 545px){
   #icons{
     font-size: 1.0em;
     width: 5vw;
@@ -99,15 +99,15 @@
     font-size: 1.0em;
   }
   #headshot{
-    width: 5.0em;
-    height: 5.0em;
+    width: 7.0em;
+    height: 7.0em;
     margin-bottom: 5%;
   }
   #projects{
     width: 85vw;
   }
 }
-@media screen and (max-width: 545px) and (min-width: 481px){
+@media screen and (max-width: 545px) and (min-width: 480px){
   #icons{
     font-size: 1.0em;
     width: 5vw;
@@ -127,8 +127,8 @@
     font-size: 1.0em;
   }
   #headshot{
-    width: 5.0em;
-    height: 5.0em;
+    width: 6.0em;
+    height: 6.0em;
     margin-bottom: 5%;
   }
   #projects{
@@ -155,8 +155,8 @@
     font-size: 1.0em;
   }
   #headshot{
-    width: 0.005em;
-    height: 0.005em;
+    width: 6.0em;
+    height: 6.0em;
     margin-bottom: 5%;
   }
 }
@@ -193,8 +193,6 @@ h2{
 #headshot{
   border-radius: 50%;
   background: #9a9a9a;
-  width: 8.0em;
-  height: 8.0em;
 }
 #name{
   font-family: 'Comfortaa', cursive;
