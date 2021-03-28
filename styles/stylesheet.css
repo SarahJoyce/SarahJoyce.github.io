@@ -65,7 +65,7 @@
     justify-content: center;
   }
   #headshot{
-    margin-right: 2.5%;
+    margin-right: 5%;
     width: 7.0em;
     height: 7.0em;
   }
@@ -124,11 +124,11 @@
     font-size: 1.0em;
   }
   #intro p{
-    font-size: 1.0em;
+    font-size: 0.75em;
   }
   #headshot{
-    width: 6.0em;
-    height: 6.0em;
+    width: 7.0em;
+    height: 7.0em;
     margin-bottom: 5%;
   }
   #projects{
@@ -155,8 +155,8 @@
     font-size: 1.0em;
   }
   #headshot{
-    width: 6.0em;
-    height: 6.0em;
+    width: 7.0em;
+    height: 7.0em;
     margin-bottom: 5%;
   }
 }
