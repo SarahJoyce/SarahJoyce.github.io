@@ -14,7 +14,7 @@
     justify-content: center;
   }
   #headshot{
-    margin-right: 5%;
+    margin-right: 2.5%;
     width: 8.0em;
     height: 8.0em;
   }
@@ -38,7 +38,7 @@
     justify-content: center;
   }
   #headshot{
-    margin-right: 5%;
+    margin-right: 2.5%;
     width: 8.0em;
     height: 8.0em;
   }
@@ -65,7 +65,7 @@
     justify-content: center;
   }
   #headshot{
-    margin-right: 5%;
+    margin-right: 2.5%;
     width: 7.0em;
     height: 7.0em;
   }
@@ -190,9 +190,8 @@ body{
 h2{
   text-align: center;
 }
-#headshot{
+#headshot img{
   border-radius: 50%;
-  background: #9a9a9a;
 }
 #name{
   font-family: 'Comfortaa', cursive;
