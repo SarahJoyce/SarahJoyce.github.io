@@ -1,11 +1,11 @@
-#intro{
-  display: inline-block;
+#typewriter{
+  width: max-content;
 }
 .typewriter{
   overflow: hidden;
   border-right: .15em solid transparent;
   white-space: nowrap;
-  animation: typing 1s steps(20, end) forwards, blinking .8s 5;
+  animation: typing 1s steps(20, end) forwards, blinking 1s 4;
   width: 0;
 }
 @keyframes typing {
@@ -36,9 +36,9 @@
     width: 8.0em;
     height: 8.0em;
   }
-  #intro{
+  /*#intro{
     width: 75%;
-  }
+  }*/
   #projects{
     width: 93vw;
   }
@@ -60,9 +60,9 @@
     width: 8.0em;
     height: 8.0em;
   }
-  #intro{
+  /*#intro{
     width: 75%;
-  }
+  }*/
   #name{
     font-size: 2.5em;
   }
@@ -87,9 +87,9 @@
     width: 7.0em;
     height: 7.0em;
   }
-  #intro{
+  /*#intro{
     width: 75%;
-  }
+  }*/
   #name{
     font-size: 2.0em;
   }
@@ -217,13 +217,12 @@ h2{
   font-weight: bold;
 }
 #intro{
-  width: 60%;
+  /*width: 60%;*/
   vertical-align: top;
   line-height: 0.1em;
 }
 #intro p{
   line-height: 1.25em;
-  width: 50%;
 }
 footer{
   left: 0;
