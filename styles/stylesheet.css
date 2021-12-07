@@ -153,7 +153,7 @@
     width: 85vw;
   }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) and (min-width: 375px){
   #icons{
     font-size: 0.75em;
     width: 10vw;
@@ -169,8 +169,38 @@
   #name{
     font-size: 1.0em;
   }
+  #intro{
+    margin-top: 2.5%;
+  }
   #intro p{
+    font-size: 0.75em;
+  }
+  #headshot{
+    width: 7.0em;
+    height: 7.0em;
+    margin-bottom: 5%;
+  }
+}@media screen and (max-width: 374px){
+  #icons{
+    font-size: 0.75em;
+    width: 10vw;
+  }
+  #frontpage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #name{
     font-size: 1.0em;
+  }
+  #intro{
+    margin-top: 2.5%;
+  }
+  #intro p{
+    font-size: 0.6em;
   }
   #headshot{
     width: 7.0em;
